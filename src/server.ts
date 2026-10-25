@@ -25,6 +25,7 @@ export const createApolloFastifyServer = async (customPort?: number): Promise<st
             const allowedOrigins = [
                 envVariables.websiteURL(),
                 'http://localhost:3000',
+                'https://findadoc.jp',
                 'https://www.findadoc.jp'
             ]
 
